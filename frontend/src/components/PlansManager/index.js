@@ -214,10 +214,10 @@ export function PlansManagerGrid(props) {
                 <TableHead>
                     <TableRow>
                         <TableCell align="center" style={{ width: '1%' }}>#</TableCell>
-                        <TableCell align="left">Nome</TableCell>
-                        <TableCell align="center">Usuários</TableCell>
-                        <TableCell align="center">Público</TableCell>
-                        <TableCell align="center">Conexões</TableCell>
+                        <TableCell align="left">Nombre</TableCell>
+                        <TableCell align="center">Usuarios</TableCell>
+                        <TableCell align="center">Publico</TableCell>
+                        <TableCell align="center">Conexiones</TableCell>
                         <TableCell align="center">Filas</TableCell>
                         <TableCell align="center">Valor</TableCell>
                     </TableRow>
@@ -299,9 +299,9 @@ export default function PlansManager() {
             }
             await loadPlans()
             handleCancel()
-            toast.success('Operação realizada com sucesso!')
+            toast.success('Operacion realizada con exito!')
         } catch (e) {
-            toast.error('Não foi possível realizar a operação. Verifique se já existe uma plano com o mesmo nome ou se os campos foram preenchidos corretamente')
+            toast.error('No ha sido posible realizar esa operacion. Comprueba si ya existe un plan con el mismo nombre o si los campos se han rellenado correctamente')
         }
         setLoading(false)
     }
@@ -312,9 +312,9 @@ export default function PlansManager() {
             await remove(record.id)
             await loadPlans()
             handleCancel()
-            toast.success('Operação realizada com sucesso!')
+            toast.success('Operacion realizada con exito!')
         } catch (e) {
-            toast.error('Não foi possível realizar a operação')
+            toast.error('No ha sido posible realizar la operacion')
         }
         setLoading(false)
     }
@@ -366,12 +366,12 @@ export default function PlansManager() {
                 </Grid>
             </Grid>
             <ConfirmationModal
-                title="Exclusão de Registro"
+                title="Eliminacion de Registro"
                 open={showConfirmDialog}
                 onClose={() => setShowConfirmDialog(false)}
                 onConfirm={() => handleDelete()}
             >
-                Deseja realmente excluir esse registro?
+                Desea relamente eliminar el registro?
             </ConfirmationModal>
         </Paper>
     )
