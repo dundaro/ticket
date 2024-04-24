@@ -45,9 +45,7 @@ const About = () => {
 			<Paper className={classes.mainPaper} variant="outlined">
 				<Typography variant="h4">{i18n.t("about.abouttitle")}</Typography>
 				<Typography variant="body1">{i18n.t("about.aboutdetail")}</Typography>
-				<Typography><Link href="https://todobom.com">{i18n.t("about.aboutauthorsite")}</Link></Typography>
-				<Typography><Link href="https://github.com/canove/whaticket-community">{i18n.t("about.aboutwhaticketsite")}</Link></Typography>
-				<Typography><Link href="https://github.com/vemfazer">{i18n.t("about.aboutvemfazersite")}</Link></Typography>
+				
 			</Paper>
 			<Paper className={classes.mainPaper} variant="outlined">
 				<Typography variant="h4">{i18n.t("about.licenseheading")}</Typography>
