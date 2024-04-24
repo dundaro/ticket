@@ -7,7 +7,7 @@ i18n.use(LanguageDetector).init({
 	debug: false,
 	defaultNS: ["translations"],
 	lng: localStorage.getItem("language") ?? "en",
-	fallbackLng: "pt",
+	fallbackLng: "es",
 	ns: ["translations"],
 	resources: messages,
 });
