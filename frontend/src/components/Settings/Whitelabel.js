@@ -204,7 +204,7 @@ export default function Whitelabel(props) {
     <>
       <Grid spacing={3} container>
         {/* <Grid xs={12} item>
-                    <Title>Configurações Gerais</Title>
+                    <Title>Configuraciones generales</Title>
                 </Grid> */}
         <OnlyForSuperUser
           user={currentUser}
