@@ -43,7 +43,7 @@ const About = () => {
 				</MainHeaderButtonsWrapper>
 			</MainHeader>
 			<Paper className={classes.mainPaper} variant="outlined">
-				<Typography variant="h4">Desarrolado desde codigo abierto por GENERACIONET.COM</Typography>
+				<Typography variant="h6">V 1.3 Ppara Ccontato.chat - Desarrolado desde codigo abierto por GENERACIONET SAC</Typography>
 						
 			</Paper>
 		
