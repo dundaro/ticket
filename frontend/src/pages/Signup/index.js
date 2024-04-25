@@ -97,14 +97,14 @@ const SignUp = () => {
 	const initialState = { name: "", email: "", phone: "", password: "", planId: "", };
 
 	const [user] = useState(initialState);
-	const dueDate = moment().add(3, "day").format();
+	const dueDate = moment().add(7, "day").format();
 
 	const handleSignUp = async (values) => {
 		if (config.RECAPTCHA_SITE_KEY) {
 			Object.assign(values, { captchaToken: await captchaRef.current.executeAsync() });
 		}
 		
-		Object.assign(values, { recurrence: "MENSAL" });
+		Object.assign(values, { recurrence: "MENSUAL" });
 		Object.assign(values, { dueDate: dueDate });
 		Object.assign(values, { status: "t" });
 		Object.assign(values, { campaignsEnabled: true });
@@ -199,7 +199,7 @@ const SignUp = () => {
 										variant="outlined"
 										fullWidth
 										id="phone"
-										label="Telefone com (DDD)"
+										label="Telefono con (DDD)"
 										name="phone"
 										error={touched.email && Boolean(errors.email)}
 										helperText={touched.email && errors.email}
@@ -224,13 +224,13 @@ const SignUp = () => {
 									/>
 								</Grid>
 								<Grid item xs={12}>
-									<InputLabel htmlFor="plan-selection">Plano</InputLabel>
+									<InputLabel htmlFor="plan-selection">PLAN</InputLabel>
 									<Field
 										as={Select}
 										variant="outlined"
 										fullWidth
 										id="plan-selection"
-										label="Plano"
+										label="Plan"
 										name="planId"
 										required
 									>
@@ -253,7 +253,7 @@ const SignUp = () => {
 							</Button>
 							</>
 							}
-							{ allowSignup || <h2>Cadastro desabilitado!</h2> }
+							{ allowSignup || <h2>Registro deshabilitado!</h2> }
 							<Grid container justify="flex-end">
 								<Grid item>
 									<Link
