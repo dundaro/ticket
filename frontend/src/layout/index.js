@@ -395,7 +395,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
           >
              {greaterThenSm && user?.profile === "admin" && user?.company?.dueDate ? (
               <>
-                Olá <b>{user.name}</b>, seja bem-vindo a <b>{user?.company?.name}</b>! (Ativo até {dateToClient(user?.company?.dueDate)})
+                Hola <b>{user.name}</b>, Bienvenido a <b>{user?.company?.name}</b>! (Activo hasta {dateToClient(user?.company?.dueDate)})
               </>
             ) : (
               <>
