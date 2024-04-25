@@ -260,28 +260,28 @@ const MessagesAPI = () => {
       <Typography className={classes.elementMargin} component="div">
         <b>Observaciones Importantes</b><br />
         <ul>
-          <li>Antes de enviar mensajes, es necesario registrar el token vinculado a la conexión que enviará los mensajes. <br/>Para realizar o cadastro acesse o menu "Conexões", clique no botão editar da conexão e insira o token no devido campo.</li>
+          <li>Antes de enviar mensajes, es necesario registrar el token vinculado a la conexión que enviará los mensajes. <br/>Para registrarse, acceda al menú "Conexiones", haga clic en el botón editar la conexión e inserte el token en el campo correspondiente.</li>
           <li>
-            O número para envio não deve ter mascara ou caracteres especiais e deve ser composto por:
+            El número de envío no debe tener máscara ni caracteres especiales y debe estar compuesto por:
               <ul>
                 <li>Código de país</li>
-                <li>DDD</li>
+                <li>COD de Ciudad</li>
                 <li>Número</li>
               </ul>
           </li>
         </ul>
       </Typography>
       <Typography variant="h6" color="primary" className={classes.elementMargin}>
-        1. Mensagess de Texto
+        1. Mensages de Texto
       </Typography>
       <Grid container>
         <Grid item xs={12} sm={6}>
           <Typography className={classes.elementMargin} component="div">
-            <p>Seguem abaixo a lista de informações necessárias para envio das mensagens de texto:</p>
+            <p>A continuación se muestra la lista de información necesaria para enviar mensajes de texto:</p>
             <b>Endpoint: </b> {getEndpoint()} <br />
             <b>Método: </b> POST <br />
             <b>Headers: </b> X_TOKEN (token cadastrado) e Content-Type (application/json) <br />
-            <b>Body: </b> {"{ \"number\": \"558599999999\", \"body\": \"Sua mensagem\" }"}
+            <b>Body: </b> {"{ \"number\": \"5117007980\", \"body\": \"Su mensage\" }"}
           </Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
@@ -297,7 +297,7 @@ const MessagesAPI = () => {
       <Grid container>
         <Grid item xs={12} sm={6}>
           <Typography className={classes.elementMargin} component="div">
-            <p>Seguem abaixo a lista de informações necessárias para envio das mensagens de texto:</p>
+            <p>A continuación se muestra la lista de información necesaria para enviar mensajes de texto:</p>
             <b>Endpoint: </b> {getEndpoint()} <br />
             <b>Método: </b> POST <br />
             <b>Headers: </b> X_TOKEN (token cadastrado) e Content-Type (multipart/form-data) <br />
