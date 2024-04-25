@@ -55,7 +55,7 @@ const MessagesAPI = () => {
     };
     
     axios.request(options).then(function (response) {
-      toast.success('Mensagem enviada com sucesso');
+      toast.success('Mensaje enviado correctamente');
     }).catch(function (error) {
       toastError(error);
     });    
@@ -79,7 +79,7 @@ const MessagesAPI = () => {
       };
       
       axios.request(options).then(function (response) {
-        toast.success('Mensagem enviada com sucesso');
+        toast.success('Mensage enviado con exito');
       }).catch(function (error) {
         toastError(error);
       });      
@@ -243,28 +243,28 @@ const MessagesAPI = () => {
       variant="outlined"
     >
       <Typography variant="h5">
-        Documentação para envio de mensagens
+       Documentación para enviar mensajes
       </Typography>
       <Typography variant="h6" color="primary" className={classes.elementMargin}>
         Métodos de Envio
       </Typography>
       <Typography component="div">
         <ol>
-          <li>Mensagens de Texto</li>
-          <li>Mensagens de Media</li>
+          <li>Mensages de Texto</li>
+          <li>Mensages de Multimedia</li>
         </ol>
       </Typography>
       <Typography variant="h6" color="primary" className={classes.elementMargin}>
-        Instruções
+        Instrucciones
       </Typography>
       <Typography className={classes.elementMargin} component="div">
-        <b>Observações importantes</b><br />
+        <b>Observaciones Importantes</b><br />
         <ul>
-          <li>Antes de enviar mensagens, é necessário o cadastro do token vinculado à conexão que enviará as mensagens. <br/>Para realizar o cadastro acesse o menu "Conexões", clique no botão editar da conexão e insira o token no devido campo.</li>
+          <li>Antes de enviar mensajes, es necesario registrar el token vinculado a la conexión que enviará los mensajes. <br/>Para realizar o cadastro acesse o menu "Conexões", clique no botão editar da conexão e insira o token no devido campo.</li>
           <li>
             O número para envio não deve ter mascara ou caracteres especiais e deve ser composto por:
               <ul>
-                <li>Código do país</li>
+                <li>Código de país</li>
                 <li>DDD</li>
                 <li>Número</li>
               </ul>
@@ -272,7 +272,7 @@ const MessagesAPI = () => {
         </ul>
       </Typography>
       <Typography variant="h6" color="primary" className={classes.elementMargin}>
-        1. Mensagens de Texto
+        1. Mensagess de Texto
       </Typography>
       <Grid container>
         <Grid item xs={12} sm={6}>
@@ -304,7 +304,7 @@ const MessagesAPI = () => {
             <b>FormData: </b> <br />
             <ul>
               <li>
-                <b>number: </b> 558599999999
+                <b>number: </b> 5117007980
               </li>
               <li>
                 <b>medias: </b> arquivo
