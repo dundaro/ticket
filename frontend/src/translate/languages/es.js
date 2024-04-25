@@ -633,19 +633,19 @@ const messages = {
         title: "Centro de Ayuda",
       },
       about: {
-        title: "Acerca de ticketz",
+        title: "Acerca de Contacto.Chat",
         abouttitle: "Origen y Mejoras",
-        aboutdetail: "ticketz es derivado indirecto del proyecto Whaticket con mejoras compartidas por los desarrolladores del sistema EquipeChat a través del canal VemFazer en YouTube, posteriormente mejorado por Claudemir Todo Bom.",
+        aboutdetail: "ContactoChat es derivado indirecto de proyecto libre con mejoras compartidas por los desarrolladores del sistema , posteriormente mejorado por Generacionet SAC.",
         aboutauthorsite: "Sitio del autor",
         aboutwhaticketsite: "Sitio de la Comunidad Whaticket en Github",
         aboutvemfazersite: "Sitio del canal Vem Fazer en Github",
         licenseheading: "Licencia de Código Abierto",
-        licensedetail: "Ticketz está licenciado bajo la Licencia Pública General Affero de GNU versión 3, lo que significa que cualquier usuario que tenga acceso a esta aplicación tiene derecho a obtener acceso al código fuente. Más información en los siguientes enlaces:",
+        licensedetail: "Contacto.chat está licenciado bajo la Licencia Pública General  GNU versión 3, lo que significa que cualquier usuario que tenga acceso a esta aplicación tiene derecho a obtener acceso al código fuente. Más información en los siguientes enlaces:",
         licensefulltext: "Texto completo de la licencia",
-        licensesourcecode: "Código fuente de ticketz"
+        licensesourcecode: "Código fuente de chatwoot"
       },
       schedules: {
-        title: "Agendamentos",
+        title: "Programaciones",
         confirmationModal: {
           deleteTitle: "¿Está seguro de que desea eliminar esta programación?",
           deleteMessage: "Esta acción no se puede deshacer.",
