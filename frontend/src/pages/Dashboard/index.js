@@ -267,7 +267,7 @@ const Dashboard = () => {
       setCompanyDueDate(moment(companiesList.dueDate).format("DD/MM/yyyy"));
     } catch (e) {
       console.log("🚀 Console Log : e", e);
-      // toast.error("Não foi possível carregar a lista de registros");
+      // toast.error("No fue posible caregar la lista de registros");
     }
     setLoading(false);
   };
@@ -401,7 +401,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Atd. Pendentes
+                    Serv. Pendoentes
                   </Typography>
                   <Grid item>
                     <Typography
@@ -512,7 +512,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Novos Contatos
+                    Nuevos Contactos
                   </Typography>
                   <Grid item>
                     <Typography
@@ -549,7 +549,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    T.M. de Atendimento
+                    T.M. de Servicio
                   </Typography>
                   <Grid item>
                     <Typography
