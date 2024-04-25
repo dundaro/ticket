@@ -38,21 +38,15 @@ const About = () => {
 	return (
 		<MainContainer>
 			<MainHeader>
-				<Title>{i18n.t("about.title")}</Title>
+				<Title>Contacto.chat</Title>
 				<MainHeaderButtonsWrapper>
 				</MainHeaderButtonsWrapper>
 			</MainHeader>
 			<Paper className={classes.mainPaper} variant="outlined">
-				<Typography variant="h4">{i18n.t("about.abouttitle")}</Typography>
-				<Typography variant="body1">{i18n.t("about.aboutdetail")}</Typography>
-				
+				<Typography variant="h4">Desarrolado desde codigo abierto por GENERACIONET.COM</Typography>
+						
 			</Paper>
-			<Paper className={classes.mainPaper} variant="outlined">
-				<Typography variant="h4">{i18n.t("about.licenseheading")}</Typography>
-				<Typography variant="body1">{i18n.t("about.licensedetail")}</Typography>
-				<Typography><Link href="https://github.com/allgood/ticketz/LICENSE.md">{i18n.t("about.licensefulltext")}</Link></Typography>
-				<Typography><Link href="https://github.com/allgood/ticketz">{i18n.t("about.licensesourcecode")}</Link></Typography>
-			</Paper>
+		
 		</MainContainer>
 	);
 };
