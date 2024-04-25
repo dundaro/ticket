@@ -170,7 +170,7 @@ const Invoices = () => {
 
       ></SubscriptionModal>
       <MainHeader>
-        <Title>Faturas</Title>
+        <Title>Facturas</Title>
       </MainHeader>
       <Paper
         className={classes.mainPaper}
