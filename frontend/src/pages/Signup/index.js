@@ -199,7 +199,7 @@ const SignUp = () => {
 										variant="outlined"
 										fullWidth
 										id="phone"
-										label="Telefono con (prefijo de pais)"
+										label="Numero de Telefono (Incluir prefijo de pais)"
 										name="phone"
 										error={touched.email && Boolean(errors.email)}
 										helperText={touched.email && errors.email}
