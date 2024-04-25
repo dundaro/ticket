@@ -399,7 +399,7 @@ const LoggedInLayout = ({ children, themeToggle }) => {
               </>
             ) : (
               <>
-                Olá <b>{user.name}</b>, seja bem-vindo a <b>{user?.company?.name}</b>!
+                HOla.. <b>{user.name}</b>, Bienvenido a.. <b>{user?.company?.name}</b>!
               </>
             )}
           </Typography>
