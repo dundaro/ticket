@@ -739,7 +739,7 @@ const messages = {
         confirmationModal: {
           title: "Eliminar el ticket del contacto",
           message:
-            "¡Atención! Todas las mensajes relacionados con el ticket se perderán.",
+            "¡Atención! Todos los mensajes relacionados con el ticket se perderán.",
         },
         buttons: {
           delete: "Eliminar",
