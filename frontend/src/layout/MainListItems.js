@@ -450,7 +450,7 @@ const MainListItems = (props) => {
                       <ListItemIcon>
                         <PeopleIcon />
                       </ListItemIcon>
-                      <ListItemText primary="Listas de Contatos" />
+                      <ListItemText primary="Listas de Contactos" />
                     </ListItem>
                     <ListItem
                       onClick={() => history.push("/campaigns-config")}
@@ -459,7 +459,7 @@ const MainListItems = (props) => {
                       <ListItemIcon>
                         <SettingsOutlinedIcon />
                       </ListItemIcon>
-                      <ListItemText primary="Configurações" />
+                      <ListItemText primary="Configuraciones" />
                     </ListItem>
                   </List>
                 </Collapse>
