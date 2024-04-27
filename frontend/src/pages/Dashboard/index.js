@@ -267,7 +267,7 @@ const Dashboard = () => {
       setCompanyDueDate(moment(companiesList.dueDate).format("DD/MM/yyyy"));
     } catch (e) {
       console.log("🚀 Console Log : e", e);
-      // toast.error("No fue posible caregar la lista de registros");
+      // toast.error("No fue posible cargar la lista de registros");
     }
     setLoading(false);
   };
@@ -320,7 +320,7 @@ const Dashboard = () => {
               value={period}
               onChange={(e) => handleChangePeriod(e.target.value)}
             >
-              <MenuItem value={0}>Nenhum selecionado</MenuItem>
+              <MenuItem value={0}>Ninguno selecionado</MenuItem>
               <MenuItem value={3}>Últimos 3 dias</MenuItem>
               <MenuItem value={7}>Últimos 7 dias</MenuItem>
               <MenuItem value={15}>Últimos 15 dias</MenuItem>
@@ -328,7 +328,7 @@ const Dashboard = () => {
               <MenuItem value={60}>Últimos 60 dias</MenuItem>
               <MenuItem value={90}>Últimos 90 dias</MenuItem>
             </Select>
-            <FormHelperText>Selecione o período desejado</FormHelperText>
+            <FormHelperText>Selecione período deseado</FormHelperText>
           </FormControl>
         </Grid>
       );
@@ -344,7 +344,7 @@ const Dashboard = () => {
           {/* <Grid item xs={12} sm={6} md={3}>
             <CardCounter
               icon={<TodayIcon fontSize="inherit" />}
-              title="Data Vencimento"
+              title="Fecha de Vencimiento"
               value={companyDueDate}
               loading={loading}
             />
@@ -366,10 +366,10 @@ const Dashboard = () => {
                 value={filterType}
                 onChange={(e) => handleChangeFilterType(e.target.value)}
               >
-                <MenuItem value={1}>Filtro por Data</MenuItem>
+                <MenuItem value={1}>Filtro por Fecha</MenuItem>
                 <MenuItem value={2}>Filtro por Período</MenuItem>
               </Select>
-              <FormHelperText>Selecione o período desejado</FormHelperText>
+              <FormHelperText>Selecione período deseado</FormHelperText>
             </FormControl>
           </Grid>
 
@@ -401,7 +401,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Serv. Pendoentes
+                    Serv. Pendientes
                   </Typography>
                   <Grid item>
                     <Typography
@@ -438,7 +438,7 @@ const Dashboard = () => {
                     variant="h6"
                     paragraph
                   >
-                    Atd. Acontecendo
+                    Atd. Siguiente
                   </Typography>
                   <Grid item>
                     <Typography
