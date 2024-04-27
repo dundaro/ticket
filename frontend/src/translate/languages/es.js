@@ -340,7 +340,7 @@ const messages = {
           users: "Usuarios",
           settings: "Configuraciones",
           helps: "Ayuda",
-          about: "Acerca de Ticketz",
+          about: "Acerca de ContactoChat",
           messagesAPI: "API",
           schedules: "Agendamientos",
           campaigns: "Campañas",
@@ -411,10 +411,10 @@ const messages = {
           actions: "Acciones",
         },
         buttons: {
-          add: "Nueva Lane",
+          add: "Nuevo carril",
         },
         toasts: {
-          deleted: "Lane eliminada con éxito.",
+          deleted: "carril eliminado con éxito.",
         },
       },
       contactLists: {
