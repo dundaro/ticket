@@ -145,7 +145,7 @@ export default function Options(props) {
       key: "userRating",
       value,
     });
-    toast.success("Operacion actualizda com exito.");
+    toast.success("Operacion actualizada con exito.");
     setLoadingUserRating(false);
   }
 
@@ -156,8 +156,8 @@ export default function Options(props) {
       key: "scheduleType",
       value,
     });
-    //toast.success("Operacion actualizda com exito.");
-    toast.success('Operacion actualizda com exito.', {
+    //toast.success("Operacion actualizada con exito.");
+    toast.success('Operacion actualizada co exito.', {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: false,
@@ -179,7 +179,7 @@ export default function Options(props) {
       key: "call",
       value,
     });
-    toast.success("Operacion actualizda com exito.");
+    toast.success("Operacion actualizada con exito.");
     setLoadingCallType(false);
   }
 
@@ -190,7 +190,7 @@ export default function Options(props) {
       key: "chatBotType",
       value,
     });
-    toast.success("Operacion actualizda com exito.");
+    toast.success("Operacion actualizada con exito.");
     setLoadingChatbotType(false);
   }
 
@@ -201,7 +201,7 @@ export default function Options(props) {
       key: "allowSignup",
       value,
     });
-    toast.success("Operacion actualizda com exito.");
+    toast.success("Operacion actualizada con exito.");
     setLoadingAllowSignup(false);
   }
 
@@ -212,7 +212,7 @@ export default function Options(props) {
       key: "CheckMsgIsGroup",
       value,
     });
-    toast.success("Operacion actualizda com exito.");
+    toast.success("Operacion actualizada con exito.");
     setCheckMsgIsGroup(false);
     /*     if (typeof scheduleTypeChanged === "function") {
           scheduleTypeChanged(value);
@@ -239,7 +239,7 @@ export default function Options(props) {
               <MenuItem value={"enabled"}>Habilitadas</MenuItem>
             </Select>
             <FormHelperText>
-              {loadingUserRating && "Atualizando..."}
+              {loadingUserRating && "Actualizando..."}
             </FormHelperText>
           </FormControl>
         </Grid>
