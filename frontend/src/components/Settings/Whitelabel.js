@@ -214,7 +214,7 @@ export default function Whitelabel(props) {
                 <FormControl className={classes.selectContainer}>
                   <TextField
                     id="primary-color-light-field"
-                    label="Cor Primária Modo Claro"
+                    label="Cor Primaria Modo Claro"
                     variant="standard"
                     value={settingsLoaded.primaryColorLight || ""}
                     onClick={() => setPrimaryColorLightModalOpen(true)}
@@ -253,7 +253,7 @@ export default function Whitelabel(props) {
                 <FormControl className={classes.selectContainer}>
                   <TextField
                     id="primary-color-dark-field"
-                    label="Cor Primária Modo Escuro"
+                    label="Cor Primaria Modo Escuro"
                     variant="standard"
                     value={settingsLoaded.primaryColorDark || ""}
                     onClick={() => setPrimaryColorDarkModalOpen(true)}
